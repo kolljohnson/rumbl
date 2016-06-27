@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='6'
+    datatypes='Math'
+    timedout=''
+    timedoutpods=''
+    timing='0.937'
+    parsetiming='0.112'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa11392239h84e49idhdb660000183a2a79600bifaf'
+    host='http://www4f.wolframalpha.com'
+    server='39'
+    related='http://www4f.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa11393239h84e49idhdb6600002ceg4c9gha7fhibb5949874632651191034'
+    version='2.6'>
+ <pod title='Input'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www4f.wolframalpha.com/Calculate/MSP/MSP11394239h84e49idhdb660000214a0hge317dfif1?MSPStoreType=image/gif&amp;s=39'
+       alt='1+1'
+       title='1+1'
+       width='32'
+       height='18' />
+   <plaintext>1+1</plaintext>
+  </subpod>
+ </pod>
+ <pod title='Result'
+     scanner='Simplification'
+     id='Result'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <img src='http://www4f.wolframalpha.com/Calculate/MSP/MSP11395239h84e49idhdb66000031f13i12ebaa80ca?MSPStoreType=image/gif&amp;s=39'
+       alt='2'
+       title='2'
+       width='8'
+       height='18' />
+   <plaintext>2</plaintext>
+  </subpod>
+  <states count='1'>
+   <state name='Step-by-step solution'
+       input='Result__Step-by-step solution' />
+  </states>
+ </pod>
+ <pod title='Number name'
+     scanner='Integer'
+     id='NumberName'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www4f.wolframalpha.com/Calculate/MSP/MSP11396239h84e49idhdb66000049d22a906ib810g0?MSPStoreType=image/gif&amp;s=39'
+       alt='two'
+       title='two'
+       width='25'
+       height='18' />
+   <plaintext>two</plaintext>
+  </subpod>
+ </pod>
+ <pod title='Number line'
+     scanner='NumberLine'
+     id='NumberLine'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www4f.wolframalpha.com/Calculate/MSP/MSP11397239h84e49idhdb6600000cg37ddb6e2d22a2?MSPStoreType=image/gif&amp;s=39'
+       alt=''
+       title=''
+       width='300'
+       height='51' />
+   <plaintext></plaintext>
+  </subpod>
+ </pod>
+ <pod title='Manipulatives illustration'
+     scanner='Arithmetic'
+     id='Illustration'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www4f.wolframalpha.com/Calculate/MSP/MSP11398239h84e49idhdb66000066de49geief08i96?MSPStoreType=image/gif&amp;s=39'
+       alt=' | + |  |  =  | 
+1 |  | 1 |  | 2'
+       title=' | + |  |  =  | 
+1 |  | 1 |  | 2'
+       width='116'
+       height='40' />
+   <plaintext> | + |  |  =  | 
+1 |  | 1 |  | 2</plaintext>
+  </subpod>
+ </pod>
+ <pod title='Typical human computation times'
+     scanner='Arithmetic'
+     id='TypicalHumanComputationTimes'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www4f.wolframalpha.com/Calculate/MSP/MSP11399239h84e49idhdb6600000e224i218399cg64?MSPStoreType=image/gif&amp;s=39'
+       alt='age 6:  3.2×10^0 seconds  |  age 8:  1.8×10^0 seconds  |  age 10:  1.2×10^0 seconds  |  
+age 18:  8.3×10^-1 seconds
+(ignoring concentration, repetition, variations in education, etc.)'
+       title='age 6:  3.2×10^0 seconds  |  age 8:  1.8×10^0 seconds  |  age 10:  1.2×10^0 seconds  |  
+age 18:  8.3×10^-1 seconds
+(ignoring concentration, repetition, variations in education, etc.)'
+       width='516'
+       height='78' />
+   <plaintext>age 6:  3.2×10^0 seconds  |  age 8:  1.8×10^0 seconds  |  age 10:  1.2×10^0 seconds  |  
+age 18:  8.3×10^-1 seconds
+(ignoring concentration, repetition, variations in education, etc.)</plaintext>
+  </subpod>
+  <states count='1'>
+   <state name='More details'
+       input='TypicalHumanComputationTimes__More details' />
+  </states>
+ </pod>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/HumanComputationQuerySourceInformationNotes.html'
+      text='Human computation query' />
+ </sources>
+</queryresult>
