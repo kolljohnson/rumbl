@@ -1,6 +1,6 @@
-defmodule Rumbl.InfoSys.Wolfram do
+defmodule InfoSys.Wolfram do
 	import SweetXml
-  alias Rumbl.InfoSys.Result
+  alias InfoSys.Result
 
 	def start_link(query, query_ref, owner, limit) do
 		Task.start_link(__MODULE__, :fetch, [query, query_ref, owner, limit])
@@ -9,7 +9,7 @@ defmodule Rumbl.InfoSys.Wolfram do
 	def fetch(query_str, query_ref, owner, _limit) do
 		query_str
 		|> fetch_xml()
-		|> xpath(~x"/queryresult/pod[contains@title, 'Result') or
+		|> xpath(~x"/queryresult/pod[contains(@title, 'Result') or
       contains(@title, 'Definitions')]
       /subpod/plaintext/text()")
 		|> send_results(query_ref, owner)
@@ -32,5 +32,6 @@ defmodule Rumbl.InfoSys.Wolfram do
 		body																 
 	end
 
-	defp app_id, do: Application.get_env(:rumbl, :wolfram)[:app_id]
+	defp app_id, do: Application.get_env(:info_sys, :wolfram)[:app_id]
 end
+
