@@ -1,4 +1,4 @@
-defmodule InfoSys.Test.HTTPClient do
+defmodule InfoSys.Test.HTTPClient do 
   @wolfram_xml File.read!("test/fixtures/wolfram.xml")
   def request(url) do
     url = to_string(url)
