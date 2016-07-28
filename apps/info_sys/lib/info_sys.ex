@@ -1,7 +1,7 @@
 defmodule InfoSys do
   use Application
 	
-	@backends [InfoSys.Wolfram]
+	@backends [InfoSys.Wolfram, InfoSys.Wikipedia, InfoSys.Google]
 
   defmodule Result do
     defstruct score: 0, text: nil, url: nil, backend: nil
